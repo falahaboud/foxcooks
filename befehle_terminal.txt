@@ -1,0 +1,83 @@
+Python -v
+
+Für python 3 -> python3
+
+----------------------------
+Version
+
+Python -V -> Resultat ist python 2.7
+
+Python3 -V -> Resultat ist python 3.8.5
+
+Django version -> python -m Django --version
+
+
+Projekt erstellen --> django-admin startproject foxcooks
+
+
+
+--------------------------------------------------------------------
+Um server zu starten
+
+-> 	Python3 manage.py runserver
+
+Um App zu erstellen
+
+-> 	Python3 manage.py startapp adoptions	(das ist der name das app)
+
+-------------------------------------------------------
+
+Migration Commands
+
+-> 	Python3 manage.py makemigrations
+-> 	Python3 manage.py show migrations
+-> 	Python3 manage.py migrate
+
+----------------------------------------------------------------------------
+
+Template Syntax
+
+--> 	{{ variable }}
+--> 	{% tag %}
+--> 	{{ variable|filter  }}
+
+Beispiel für Template 
+
+--> 	<h3> {{ pet.name }} </h3>
+
+Template loops
+
+{% for pet in pets %}
+	<li> {{ pet.name }} </li>
+{% endfor %}
+
+
+--------------------------------------------
+GitHub
+echo "# foxcooks" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/falahaboud/foxcooks.git
+git push -u origin main
+
+--------------------------------------------
+Database Configuration Postgres
+Password -> admin
+
+
+Super admin
+admin
+admin
+
+
+
+
+
+
+
+
+
+
+
